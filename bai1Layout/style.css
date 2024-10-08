@@ -1,0 +1,75 @@
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+body {
+    font-size: 1.6rem;
+}
+/*  */
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.header__title {
+    border: 1px solid black;
+    padding: 1rem 1rem;
+    /* tren duoi danh 1 rem, trai phai 0 */
+}
+
+.nav {
+    background-color: darksalmon;
+    padding: 1rem;
+}
+/* ul */
+.nav__list {
+    list-style-type: none;
+}
+/* li */
+.nav__item {
+    float: left;
+    padding-right: 1rem ;
+    /*để ngta chỉ bấm đúng vào link*/
+}
+/* a */
+
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;;
+}
+/* body */
+.content__block {
+    height: 20rem;
+}
+.left-side__block {
+    background-color: darkseagreen;
+    float: left;
+    width: 65%;
+    height: 100%;
+    padding: 1rem;
+}
+.right-side__block {
+    background-color: steelblue;
+    float: left;
+    width: 35%;
+    height: 100%;
+    padding: 1rem;
+}
+
+.menu__list {
+    padding-left: 3rem;
+}
+
+.footer {
+    padding: 1rem;
+    background-color: bisque;
+}
